@@ -78,9 +78,16 @@ body:
     attributes:
       label: Check
       options:
-        - label: I have read [documentation](README.md)
+        - label: I have read [documentation](https://github.com/ZebNoid/template_test/README.md)
           required: true
-        - label: I have tried [Troubleshoots](README.md#Troubleshoots)
+        - label: I have tried [Troubleshoots](https://github.com/ZebNoid/template_test/README.md#Troubleshoots)
+          required: true
+        - label: | 
+            - I have tried `reset cache`
+            - `npm cache verify`
+            - `npm cache clean --force`
+          required: true
+        - label: I have tried `completely stop application on device` and `stop React server`
           required: true
     validations:
       required: true
