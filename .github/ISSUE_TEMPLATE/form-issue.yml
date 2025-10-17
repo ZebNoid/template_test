@@ -99,10 +99,23 @@ body:
   - type: checkboxes
     id: issue-check-cache
     attributes:
-      label: I have tried `reset cache`
+      label: Tried reset cache?
       description: |
         - `npm cache verify`
         - `npm cache clean --force`
+      options:
+        - label: I have
+          required: true
+    validations:
+      required: true
+    
+  - type: checkboxes
+    id: issue-check-restart
+    attributes:
+      label: Did application restart?
+      description: |
+        - `completely stop application on device`
+        - `stop React server`
       options:
         - label: I have
           required: true
