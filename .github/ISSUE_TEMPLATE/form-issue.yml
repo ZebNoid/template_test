@@ -5,8 +5,7 @@ labels:
   - bug
 projects:
   - ZebNoid/template_test
-assignees:
-  - ZebNoid
+assignees: []
 body:
   - type: markdown
     attributes:
