@@ -27,7 +27,7 @@ body:
       options:
         - Android
         - iOS
-        = Neither
+        - Neither
     validations:
       required: true
   - type: textarea
