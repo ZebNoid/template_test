@@ -1,0 +1,54 @@
+name: Base Issue
+description: File a Issue.
+title: "[Issue]: "
+labels: []
+projects:
+  - ZebNoid/template_test
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this Issue
+  - type: input
+    id: version-tag
+    attributes:
+      label: Version?
+      description: Tell us which version?
+      placeholder: Version
+    validations:
+      required: true
+  - type: dropdown
+    id: react-device
+    attributes:
+      label: Device?
+      description: On which device you running?
+      multiple: true
+      options:
+        - Android
+        - iOS
+        - Neither
+    validations:
+      required: true
+  - type: textarea
+    id: issue-what-happened
+    attributes:
+      label: What happened?
+      description: |
+        - What did happen?
+        - What did you expect to happen?
+        - Give as much detail
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: checkboxes
+    id: issue-check
+    attributes:
+      label: I have
+      options:
+        - label: I have read [documentation](https://github.com/ZebNoid/template_test/README.md)
+          required: true
+        - label: I have tried [Troubleshoots](https://github.com/ZebNoid/template_test/README.md#Troubleshoots)
+          required: true
+    validations:
+      required: true
