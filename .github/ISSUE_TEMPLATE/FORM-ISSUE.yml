@@ -10,17 +10,23 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this Issue
+  - type: input
+    id: version-tag
+    attributes:
+      label: Version Tag?
+      description: Tell us Version?
+      placeholder: Version Tag
+    validations:
+      required: true
   - type: dropdown
     id: react-device
     attributes:
       label: Device
       description: On which device you running?
-      multiple: false
+      multiple: true
       options:
-        - Nither
         - Android
         - iOS
-        - Android & iOS
     validations:
       required: true
   - type: textarea
