@@ -83,13 +83,13 @@ body:
           required: true
         - label: I have tried [Troubleshoots](https://github.com/ZebNoid/template_test/README.md#Troubleshoots)
           required: true
-        - label: | 
-            I have tried `reset cache`
+        - label: I have tried `reset cache`
+          description: |
             - `npm cache verify`
             - `npm cache clean --force`
           required: true
-        - label: |
-            I have tried 
+        - label: I have tried 
+          description: |
             - `completely stop application on device`
             - `stop React server`
           required: true
