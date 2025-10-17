@@ -87,7 +87,10 @@ body:
             - `npm cache verify`
             - `npm cache clean --force`
           required: true
-        - label: I have tried `completely stop application on device` and `stop React server`
+        - label: |
+            - I have tried 
+            - `completely stop application on device`
+            - `stop React server`
           required: true
     validations:
       required: true
