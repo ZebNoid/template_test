@@ -68,4 +68,11 @@ body:
       description: Please copy and paste any relevant Code. This will be automatically formatted into TypeScript code, so no need for backticks.
       placeholder: TypeScript code
       render: typescript
-
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Device
+      options:
+        - label: Android
+        - label: iOS
+      required: true
