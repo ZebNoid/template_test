@@ -46,6 +46,7 @@ body:
       label: React Info?
       description: Tell us, command output `npx react-native info`?
       placeholder: Tell us what `npx react-native info` says!
+      render: shell
     validations:
       required: true
   - type: textarea
@@ -57,6 +58,7 @@ body:
         - What did you expect to happen?
         - Give as much detail
       placeholder: Tell us what you see!
+      render: shell
     validations:
       required: true
   - type: textarea
