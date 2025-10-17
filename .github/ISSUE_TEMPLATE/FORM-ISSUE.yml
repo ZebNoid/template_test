@@ -15,7 +15,10 @@ body:
     attributes:
       label: Device
       description: On which device you running?
+      multiple: false
+      default: false/none/empty
       options:
+        - None
         - Android
         - iOS
         - Android & iOS
