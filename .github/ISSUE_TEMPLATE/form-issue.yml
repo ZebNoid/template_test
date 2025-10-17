@@ -38,6 +38,7 @@ body:
       label: React Doctor?
       description: Tell us, command output `npx react-native doctor`?
       placeholder: Tell us what `npx react-native doctor` says!
+      render: shell
     validations:
       required: true
   - type: textarea
@@ -50,7 +51,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: what-happened
+    id: issue-what-happened
     attributes:
       label: What happened?
       description: |
@@ -58,18 +59,17 @@ body:
         - What did you expect to happen?
         - Give as much detail
       placeholder: Tell us what you see!
-      render: shell
     validations:
       required: true
   - type: textarea
-    id: logs
+    id: issue-logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       placeholder: Logs
       render: shell
   - type: textarea
-    id: code
+    id: issue-code
     attributes:
       label: Code which cause a issue
       description: Please copy and paste any relevant Code. This will be automatically formatted into TypeScript code, so no need for backticks.
