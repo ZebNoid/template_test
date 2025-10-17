@@ -74,8 +74,6 @@ body:
       label: Device
       options:
         - label: Android
-          required: true
         - label: iOS
-          required: true
     validations:
       required: true
