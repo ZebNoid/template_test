@@ -1,5 +1,5 @@
-name: My Issue
-description: File a Issue.
+name: Detailed Issue
+description: File a Detailed Issue.
 title: "[Issue]: "
 labels: 
   - bug
