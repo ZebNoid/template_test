@@ -16,7 +16,7 @@ body:
       label: Device
       description: On which device you running?
       multiple: false
-      default: false/none/empty
+      default: -1
       options:
         - None
         - Android
