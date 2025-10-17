@@ -83,16 +83,6 @@ body:
           required: true
         - label: I have tried [Troubleshoots](https://github.com/ZebNoid/template_test/README.md#Troubleshoots)
           required: true
-        - label: |
-            I have tried `reset cache`
-            - `npm cache verify`
-            - `npm cache clean --force`
-          required: true
-        - label: |
-            I have tried 
-            - `completely stop application on device`
-            - `stop React server`
-          required: true
     validations:
       required: true
     
@@ -112,7 +102,7 @@ body:
   - type: checkboxes
     id: issue-check-restart
     attributes:
-      label: Did application restart?
+      label: Did full application restart?
       description: |
         - `completely stop application on device`
         - `stop React server`
