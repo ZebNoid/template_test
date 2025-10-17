@@ -16,7 +16,6 @@ body:
       label: Device
       description: On which device you running?
       multiple: false
-      default: 4
       options:
         - Nither
         - Android
