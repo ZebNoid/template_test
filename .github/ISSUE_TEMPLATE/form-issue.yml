@@ -75,7 +75,7 @@ body:
       placeholder: TypeScript code
       render: typescript
   - type: checkboxes
-    id: check
+    id: issue-check
     attributes:
       label: I have
       options:
@@ -83,15 +83,28 @@ body:
           required: true
         - label: I have tried [Troubleshoots](https://github.com/ZebNoid/template_test/README.md#Troubleshoots)
           required: true
-        - label: I have tried `reset cache`
-          description: |
+        - label: |
+            I have tried `reset cache`
             - `npm cache verify`
             - `npm cache clean --force`
           required: true
-        - label: I have tried 
-          description: |
+        - label: |
+            I have tried 
             - `completely stop application on device`
             - `stop React server`
+          required: true
+    validations:
+      required: true
+    
+  - type: checkboxes
+    id: issue-check-cache
+    attributes:
+      label: I have tried `reset cache`
+      description: |
+        - `npm cache verify`
+        - `npm cache clean --force`
+      options:
+        - label: I have
           required: true
     validations:
       required: true
