@@ -14,8 +14,8 @@ body:
     id: version-tag
     attributes:
       label: Version Tag?
-      description: Tell us Version?
-      placeholder: Version Tag
+      description: Tell us which version?
+      placeholder: Version
     validations:
       required: true
   - type: dropdown
@@ -58,11 +58,13 @@ body:
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      placeholder: Logs
       render: shell
   - type: textarea
     id: code
     attributes:
       label: Code which cause a issue
       description: Please copy and paste any relevant Code. This will be automatically formatted into TypeScript code, so no need for backticks.
+      placeholder: TypeScript code
       render: typescript
 
