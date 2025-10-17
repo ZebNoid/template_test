@@ -1,4 +1,4 @@
-name: Affise Issue
+name: My Issue
 description: File a Issue.
 title: "[Issue]: "
 labels: ["bug"]
@@ -19,7 +19,6 @@ body:
         - Android
         - iOS
         - Android & iOS
-      default: 0
     validations:
       required: true
   - type: textarea
