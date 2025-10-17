@@ -35,7 +35,6 @@ body:
       label: React Doctor?
       description: Tell us, command output `npx react-native doctor`?
       placeholder: Tell us what doctor says!
-      value: ""
     validations:
       required: true
   - type: textarea
@@ -44,7 +43,6 @@ body:
       label: React Info?
       description: Tell us, command output `npx react-native info`?
       placeholder: Tell us what info says!
-      value: ""
     validations:
       required: true
   - type: textarea
