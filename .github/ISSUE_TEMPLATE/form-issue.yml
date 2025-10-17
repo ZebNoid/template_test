@@ -85,12 +85,12 @@ body:
         - label: I have tried [Troubleshoots](https://github.com/ZebNoid/template_test/README.md#Troubleshoots)
           required: true
         - label: | 
-            - I have tried `reset cache`
+            I have tried `reset cache`
             - `npm cache verify`
             - `npm cache clean --force`
           required: true
         - label: |
-            - I have tried 
+            I have tried 
             - `completely stop application on device`
             - `stop React server`
           required: true
