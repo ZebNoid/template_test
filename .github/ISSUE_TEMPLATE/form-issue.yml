@@ -76,7 +76,7 @@ body:
   - type: checkboxes
     id: check
     attributes:
-      label: Check
+      label: I have
       options:
         - label: I have read [documentation](https://github.com/ZebNoid/template_test/README.md)
           required: true
