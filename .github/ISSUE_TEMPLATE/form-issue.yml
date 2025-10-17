@@ -14,16 +14,16 @@ body:
   - type: input
     id: version-tag
     attributes:
-      label: Version?
-      description: Tell us which version?
+      label: Version
+      description: Tell us which version
       placeholder: Version
     validations:
       required: true
   - type: dropdown
     id: react-device
     attributes:
-      label: Device?
-      description: On which device you running?
+      label: Device
+      description: On which device you running
       multiple: true
       options:
         - Android
@@ -34,8 +34,8 @@ body:
   - type: textarea
     id: react-doctor
     attributes:
-      label: React Doctor?
-      description: Tell us, command output `npx react-native doctor`?
+      label: React Doctor
+      description: Tell us, command output `npx react-native doctor`
       placeholder: Tell us what `npx react-native doctor` says!
       render: shell
     validations:
@@ -43,8 +43,8 @@ body:
   - type: textarea
     id: react-info
     attributes:
-      label: React Info?
-      description: Tell us, command output `npx react-native info`?
+      label: React Info
+      description: Tell us, command output `npx react-native info`
       placeholder: Tell us what `npx react-native info` says!
       render: shell
     validations:
