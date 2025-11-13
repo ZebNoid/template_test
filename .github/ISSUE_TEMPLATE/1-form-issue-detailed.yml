@@ -1,4 +1,4 @@
-name: 🗃️ Detailed Issue
+name: 🗃️ React Affise Issue
 description: File a Detailed Issue.
 title: "[Issue]: "
 labels: 
@@ -15,7 +15,7 @@ body:
     id: version-tag
     attributes:
       label: Version
-      description: Tell us which version
+      description: Tell us which Affise react library version
       placeholder: Version
     validations:
       required: true
@@ -26,8 +26,8 @@ body:
       description: On which device you running
       multiple: true
       options:
-        - Android
-        - iOS
+        - Android Only
+        - iOS Only
         - Neither
     validations:
       required: true
@@ -35,7 +35,7 @@ body:
     id: react-doctor
     attributes:
       label: React Doctor
-      description: Tell us, command output `npx react-native doctor`
+      description: Tell us, output for `npx react-native doctor` command
       placeholder: Tell us what `npx react-native doctor` says!
       render: shell
     validations:
@@ -44,7 +44,7 @@ body:
     id: react-info
     attributes:
       label: React Info
-      description: Tell us, command output `npx react-native info`
+      description: Tell us, output for `npx react-native info` command
       placeholder: Tell us what `npx react-native info` says!
       render: shell
     validations:
