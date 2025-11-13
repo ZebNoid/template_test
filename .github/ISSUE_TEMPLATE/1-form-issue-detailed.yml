@@ -1,4 +1,4 @@
-name: 🗃️ React Affise Issue
+name: 🗃️ React Some Issue
 description: File a Detailed Issue.
 title: "[Issue]: "
 labels: 
@@ -15,7 +15,7 @@ body:
     id: version-tag
     attributes:
       label: Version
-      description: Tell us which Affise react library version
+      description: Tell us which Some react library version
       placeholder: Version
     validations:
       required: true
